@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Add New Student</h1>  
+<form action="SaveServlet" method="post">  
+<table>
+<tr><td>Id:</td><td><input type="text" name="id"/></td></tr>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>fee:</td><td><input type="text" name="fee"/></td></tr>    
+<tr><td>course:</td><td>  
+<select name="course" style="width:150px">  
+<option>MBA</option>  
+<option>MCA</option>  
+<option>B.sc</option>
+<option>B.com</option>  
+<option>Other</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Student"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewServlet">view student</a>   
+</body>
+</html>
